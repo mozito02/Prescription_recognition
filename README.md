@@ -44,6 +44,7 @@ Each cropped region from YOLO is fed into a TrOCR model. TrOCR (Transformers for
 ### 3. Post-Processing with Medicine Corpus
 
 To improve accuracy and ensure the recognized names correspond to valid medicines, each OCR output is matched against a predefined structured medicine corpus. Fuzzy string matching algorithms are used to find the closest valid match. This step compensates for minor OCR errors and ensures clean, validated output.
+The link to access sample corpus csv : https://drive.google.com/file/d/1Dzszq9ERgl62LxVycfQxRJnVkhD81P31/view?usp=sharing
 
 ---
 
